@@ -1,0 +1,106 @@
+
+body{
+	background-image: url();
+	background-size: cover;
+	margin: 0px;
+}
+
+/*Resume CSS*/
+#introHeading{
+	font-family: 'Just Another Hand', cursive;
+	padding: 2rem 5rem;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 1rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    
+}
+
+.headerContent{
+	background-color:DodgerBlue;
+	border-top: 3px solid #E6E6FA;
+	border-left: 3px solid #E6E6FA;
+	border-right: 3px solid #E6E6FA;
+	font-family: "Courier New"
+	font-weight: bold; 
+	font-variant: small-caps;
+	width:100px;
+	text-decoration: underline;
+}
+
+/*resource links*/
+#nav2{
+	text-align: left;
+}
+
+#nav2 li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+}
+
+#nav2> li:last-child{
+	position: absolute;
+}
+
+a{
+	font-weight: bold;
+	color:#407F7F;
+}
+
+.javacolor{
+	color: rgba(0,0,255,0.6);
+}
+
+.webcolor{
+	color: rgba(255,0,0,0.5);
+}
+
+.referencesColor{
+	color: #749D34;
+}
+
+.exercises{
+	color: #803315;
+}
+
+.formatBody{
+	margin: 50px;
+}
+
+/*for the game logos*/
+img:hover{
+	transform: scale(1.1);
+	animation: alternate;
+}
+
+div > p{
+	font-family: 'Chakra Petch', sans-serif, "Courer New";
+	font-size: 80%;
+	border-left: 3px solid #E6E6FA;
+	border-bottom: 3px solid #E6E6FA;
+	border-right: 3px solid #E6E6FA;
+}
+
+blockquote{
+	border-left : 3px solid #E6E6FA;
+	border-top: 3px solid #E6E6FA;
+	border-right: 3px solid #E6E6FA;
+	border-bottom: 3px solid #E6E6FA;
+}
+
+.artFormat{
+	padding: 2px;
+	border: 5px dashed #D3D3D3;
+	transition: all 2s;
+}
+
+.artFormat:hover{
+	border:5px solid #2F4F4F;
+	transform: scale(1.1s);
+}
+
+
